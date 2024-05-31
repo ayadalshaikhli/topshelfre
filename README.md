@@ -1,5 +1,3 @@
-### README.md
-
 # TopShelfRE
 
 Thank you for considering my application and the opportunity to take this assessment.
