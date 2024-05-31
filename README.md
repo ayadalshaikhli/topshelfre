@@ -4,10 +4,6 @@
 
 Thank you for considering my application and the opportunity to take this assessment.
 
-## What does this project do?
-
-TopShelfRE is a RESTful API for managing a collection of books, enabling CRUD operations.
-
 ## How to Use
 
 You can set up and run the project with the following steps:
