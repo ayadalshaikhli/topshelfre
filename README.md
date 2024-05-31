@@ -1,49 +1,69 @@
-README.md
-TopShelfRE
+### README.md
+
+# TopShelfRE
+
 Thank you for considering my application and the opportunity to take this assessment.
 
-How to Use
+## What does this project do?
+
+TopShelfRE is a RESTful API for managing a collection of books, enabling CRUD operations.
+
+## How to Use
+
 You can set up and run the project with the following steps:
 
-1. Clone and Install
+### 1. Clone and Install
+
 Clone the repository and install dependencies:
 
-sh
-Copy code
+```sh
 git clone <repository-url>
 cd topshelfre
 npm install
-2. Set Environment Variables
-Create a .env file in the root directory:
+```
 
-dotenv
-Copy code
+### 2. Set Environment Variables
+
+Create a `.env` file in the root directory:
+
+```dotenv
 PORT=4000
-3. Run the Server
+```
+
+### 3. Run the Server
+
 Start the server:
 
-sh
-Copy code
+```sh
 npm start
-Access the API at http://localhost:4000.
+```
 
-4. Run Tests
+Access the API at `http://localhost:4000`.
+
+### 4. Run Tests
+
 Execute tests with:
 
-sh
-Copy code
+```sh
 npm test
-Project Structure
-controllers/: Contains the logic for CRUD operations.
-routes/: Defines the API routes.
-tests/: Contains the test cases.
-constants/: Holds initial data.
-server.js: Configures and starts the server.
-Summary
-CRUD API: For managing books.
-Initial Data: Located in constants/booksData.js.
-Testing: Implemented with Jest and Supertest.
-Note
-I briefly considered using Next.js 14 for this project, but I didn't want to overcomplicate things. Instead, I focused on setting up a clean, maintainable structure.
+```
+
+## Project Structure
+
+- **controllers/**: Contains the logic for CRUD operations.
+- **routes/**: Defines the API routes.
+- **tests/**: Contains the test cases.
+- **constants/**: Holds initial data.
+- **server.js**: Configures and starts the server.
+
+## Summary
+
+- **CRUD API**: For managing books.
+- **Initial Data**: Located in `constants/booksData.js`.
+- **Testing**: Implemented with Jest and Supertest.
+
+
+Note I briefly considered using Next.js 14 for this project, but I didn't want to overcomplicate things. Instead, I focused on setting up a clean, maintainable structure.
+
 
 Thank you for reviewing my project. I look forward to discussing it further.
